@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+main {
+  margin: 30px auto;
+  max-width: 1170px;
+}
+
+.image-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #000;
+}
+
+.image-grid img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.image-wrapper {
+  width: 250px;
+}
+
+summary {
+  cursor: pointer;
+  margin: 15px 0;
+  text-align: left;
+}
