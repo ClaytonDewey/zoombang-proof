@@ -36,6 +36,8 @@ const data = [
   {
     title: 'Competitor Vests',
     images: [
+      './images/ShootingVests/AR500158-Closeup.jpg',
+      './images/ShootingVests/AR500184-Closeup.jpg',
       './images/ShootingVests/competitor-vest-1.jpg',
       './images/ShootingVests/competitor-vest-2.jpg',
       './images/ShootingVests/competitor-vest-3.jpg',
