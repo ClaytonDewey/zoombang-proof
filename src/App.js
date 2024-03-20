@@ -28,12 +28,14 @@ function App() {
         <div className='btn-container'>
           <a
             href='https://i.univbkstr.com/downloads/hi-res-jpgs.zip'
-            className='btn btn-primary'>
+            className='btn btn-primary'
+            title='Download JPGs'>
             Download Hi-Res JPGs
           </a>
           <a
             href='https://i.univbkstr.com/downloads/hi-res-pngs.zip'
-            className='btn btn-primary'>
+            className='btn btn-primary'
+            title='Download PNGs'>
             Download Hi-Res PNGs
           </a>
         </div>
