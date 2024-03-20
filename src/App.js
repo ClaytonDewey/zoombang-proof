@@ -24,6 +24,15 @@ function App() {
             </details>
           );
         })}
+
+        <div className='btn-container'>
+          <a href='./downloads/hi-res-jpgs.zip' className='btn btn-primary'>
+            Download Hi-Res JPGs
+          </a>
+          <a href='./downloads/hi-res-pngs.zip' className='btn btn-primary'>
+            Download Hi-Res PNGs
+          </a>
+        </div>
       </main>
     </div>
   );
