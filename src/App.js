@@ -1,7 +1,8 @@
 import './App.css';
+import { Details } from './components';
 import data from './data';
 
-console.log(data);
+// console.log(data);
 function App() {
   return (
     <div className='App'>
@@ -9,22 +10,16 @@ function App() {
         <h1>ZoomBang Proofs</h1>
       </header>
       <main>
+        Items will be here...
         {data.map((item, index) => {
+          console.log(item);
           return (
-            <details key={index}>
-              <summary key={index}>{item.title}</summary>
-
-              <div className='image-grid'>
-                {item.images.map((image, index) => (
-                  <div className='image-wrapper' key={index}>
-                    <img src={image} alt='' />
-                  </div>
-                ))}
-              </div>
-            </details>
+            <div key={index}>
+              <h2>{item.type}</h2>
+              <Details products={item.products} />
+            </div>
           );
         })}
-
         <div className='btn-container'>
           <a
             href='https://i.univbkstr.com/downloads/hi-res-jpgs.zip'
@@ -38,7 +33,7 @@ function App() {
             title='Download PNGs'>
             Download Hi-Res PNGs
           </a>
-        </div>
+        </div>{' '}
       </main>
     </div>
   );
