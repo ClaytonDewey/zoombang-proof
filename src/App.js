@@ -10,9 +10,7 @@ function App() {
         <h1>ZoomBang Proofs</h1>
       </header>
       <main>
-        Items will be here...
         {data.map((item, index) => {
-          console.log(item);
           return (
             <div key={index}>
               <h2>{item.type}</h2>
