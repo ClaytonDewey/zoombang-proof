@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/zoombang-proof/static/css/main.a0852d6d.css",
-    "main.js": "/zoombang-proof/static/js/main.d1387556.js",
+    "main.js": "/zoombang-proof/static/js/main.ce029156.js",
     "index.html": "/zoombang-proof/index.html",
     "main.a0852d6d.css.map": "/zoombang-proof/static/css/main.a0852d6d.css.map",
-    "main.d1387556.js.map": "/zoombang-proof/static/js/main.d1387556.js.map"
+    "main.ce029156.js.map": "/zoombang-proof/static/js/main.ce029156.js.map"
   },
   "entrypoints": [
     "static/css/main.a0852d6d.css",
-    "static/js/main.d1387556.js"
+    "static/js/main.ce029156.js"
   ]
 }

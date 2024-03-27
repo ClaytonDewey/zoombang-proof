@@ -121,7 +121,7 @@ const data = [
         images: [
           './images/football/ZB7000-Front.jpg',
           './images/football/ZB7000-Front-Black.jpg',
-          './images/football/ZB7000-Back-Black.jpg',
+          // './images/football/ZB7000-Back-Black.jpg',
         ],
       },
       {
