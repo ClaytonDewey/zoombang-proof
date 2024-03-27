@@ -7,7 +7,7 @@ function App() {
   return (
     <div className='App'>
       <header>
-        <h1>ZoomBang Proofs</h1>
+        <h1>Zoombang&trade; Proofs</h1>
       </header>
       <main>
         {data.map((item, index) => {
