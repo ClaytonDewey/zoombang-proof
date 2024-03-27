@@ -1,5 +1,5 @@
 import './App.css';
-import { Details } from './components';
+import { ButtonContainer, Details } from './components';
 import data from './data';
 
 // console.log(data);
@@ -12,26 +12,15 @@ function App() {
       <main>
         {data.map((item, index) => {
           return (
-            <div key={index}>
+            <div style={{ borderBottom: '1px solid' }} key={index}>
               <h2>{item.type}</h2>
               <Details products={item.products} />
+              {item.links ? (
+                <ButtonContainer type={item.type} links={item.links} />
+              ) : null}
             </div>
           );
         })}
-        <div className='btn-container'>
-          <a
-            href='https://i.univbkstr.com/downloads/hi-res-jpgs.zip'
-            className='btn btn-primary'
-            title='Download JPGs'>
-            Download Hi-Res JPGs
-          </a>
-          <a
-            href='https://i.univbkstr.com/downloads/hi-res-pngs.zip'
-            className='btn btn-primary'
-            title='Download PNGs'>
-            Download Hi-Res PNGs
-          </a>
-        </div>{' '}
       </main>
     </div>
   );

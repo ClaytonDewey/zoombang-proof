@@ -60,6 +60,16 @@ const data = [
         ],
       },
     ],
+    links: [
+      {
+        type: 'JPG',
+        src: 'https://i.univbkstr.com/downloads/hi-res-jpgs.zip',
+      },
+      {
+        type: 'PNG',
+        src: 'https://i.univbkstr.com/downloads/hi-res-pngs.zip',
+      },
+    ],
   },
   {
     type: 'Football',
@@ -130,6 +140,16 @@ const data = [
           './images/football/ZB9300-Front.jpg',
           './images/football/ZB9300-Front-Black.jpg',
         ],
+      },
+    ],
+    links: [
+      {
+        type: 'JPG',
+        src: './downloads/football/jpgs.zip',
+      },
+      {
+        type: 'PNG',
+        src: './downloads/football/pngs.zip',
       },
     ],
   },
