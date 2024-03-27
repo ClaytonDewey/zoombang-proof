@@ -79,10 +79,49 @@ const data = [
         ],
       },
       {
+        title: 'ZB0450',
+        images: [
+          './images/football/ZB0450-Front.jpg',
+          './images/football/ZB0450-Front-Black.jpg',
+          './images/football/ZB0450-Back.jpg',
+          './images/football/ZB0450-Back-Black.jpg',
+        ],
+      },
+      {
+        title: 'ZB0457',
+        images: [
+          './images/football/ZB0457-Front.jpg',
+          './images/football/ZB0457-Front-Black.jpg',
+          './images/football/ZB0457-Back.jpg',
+          './images/football/ZB0457-Back-Black.jpg',
+        ],
+      },
+      {
+        title: 'ZB1111',
+        images: [
+          './images/football/ZB1111-Front.jpg',
+          './images/football/ZB1111-Front-Black.jpg',
+          './images/football/ZB1111-Back.jpg',
+          './images/football/ZB1111-Back-Black.jpg',
+        ],
+      },
+      {
+        title: 'ZB3333',
+        images: [
+          './images/football/ZB3333-Front.jpg',
+          './images/football/ZB3333-Front-Black.jpg',
+          './images/football/ZB3333-Side.jpg',
+          './images/football/ZB3333-Side-Black.jpg',
+          './images/football/ZB3333-Back.jpg',
+          './images/football/ZB3333-Back-Black.jpg',
+        ],
+      },
+      {
         title: 'ZB7000',
         images: [
           './images/football/ZB7000-Front.jpg',
           './images/football/ZB7000-Front-Black.jpg',
+          './images/football/ZB7000-Back-Black.jpg',
         ],
       },
       {
@@ -90,13 +129,6 @@ const data = [
         images: [
           './images/football/ZB9300-Front.jpg',
           './images/football/ZB9300-Front-Black.jpg',
-        ],
-      },
-      {
-        title: 'ZB111',
-        images: [
-          './images/football/ZB111-Front.jpg',
-          './images/football/ZB111-Front-Black.jpg',
         ],
       },
     ],
